@@ -1,16 +1,46 @@
-# smart_utility_toolkit
+# Smart Utility Toolkit (Flutter)
 
-A new Flutter project.
+A multi-purpose utility mobile application built with Flutter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Unit Converter
+Supports:
+- Length conversion
+- Weight conversion
+- Temperature conversion
 
-A few resources to get you started if this is your first Flutter project:
+### Calculator
+Basic arithmetic operations:
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Notes Module
+- Add notes
+- Delete notes
+- Persistent storage using SharedPreferences
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture
+
+Feature-based folder structure:
+
+lib/
+ ├── main.dart
+ ├── routes.dart
+ └── features/
+     ├── converter/
+     ├── calculator/
+     └── notes/
+
+## Technologies Used
+
+- Flutter
+- Dart
+- SharedPreferences
+
+## Author
+
+Wisdom Eno Abasibom
+Technology Enthusiast
